@@ -4,11 +4,9 @@
     android:title="Màn hình chính"
     android:icon="@drawable/ic_home_black"
     />
-    <item android:id="@+id/navi_profile"
-        android:title="Hồ sơ của tôi"
 
-        android:icon="@drawable/ic_profile_black"
-        /><item android:id="@+id/navi_users"
+
+    <item android:id="@+id/navi_users"
     android:title="Tìm bạn học"
     android:icon="@drawable/ic_users_black"/>
 
@@ -16,4 +14,10 @@
         android:title="Chat"
         android:icon="@drawable/ic_chat_black"
     />
+
+    <item android:id="@+id/navi_profile"
+        android:title="Hồ sơ của tôi"
+
+        android:icon="@drawable/ic_profile_black"
+        />
 </menu>

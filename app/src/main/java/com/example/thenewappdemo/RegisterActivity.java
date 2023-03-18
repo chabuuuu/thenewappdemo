@@ -135,7 +135,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
                             Toast.makeText(RegisterActivity.this, "Đăng ký hoàn tất cho \n" + user.getEmail(), Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(RegisterActivity.this, DashboardActivity.class));
+                            startActivity(new Intent(RegisterActivity.this, NganhActivity.class));
                             finish();
 
 
